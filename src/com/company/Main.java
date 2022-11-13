@@ -42,9 +42,9 @@ public class Main {
         int salary = 200;
         int minSale = 9;
 
-        int totalSalary = bonus + salary;
         if(sales > minSale){
-            System.out.println("Your Total salary is" + totalSalary);
+            salary = salary + bonus;
+            System.out.println("Your Total salary is" + salary);
         } else {
             System.out.println("No salary available for you");
         }
