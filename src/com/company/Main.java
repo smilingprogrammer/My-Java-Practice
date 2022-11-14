@@ -51,29 +51,30 @@ public class Main {
 
         // Assignment of if statements
 
-        System.out.println("Pennies");
-        Scanner scanner = new Scanner(System.in);
-        double pennies = scanner.nextDouble();
+//        System.out.println("Pennies");
+//        Scanner scanner = new Scanner(System.in);
+//        double pennies = scanner.nextDouble();
+//
+//        System.out.println("nickel");
+//        double nickel = scanner.nextDouble();
+//
+//        System.out.println("dime");
+//        double dime = scanner.nextDouble();
+//
+//        System.out.println("quarter");
+//        double quarter = scanner.nextDouble();
+//
+//        double total = pennies + nickel + dime + quarter;
+//        scanner.close();
+//        int exactNumberExpected = 1;
+//
+//        if (total == exactNumberExpected){
+//            System.out.println("You win");
+//        } else if (total > exactNumberExpected){
+//            System.out.println("You went over");
+//        } else {
+//            System.out.println("You went under");
+//        }
 
-        System.out.println("nickel");
-        double nickel = scanner.nextDouble();
-
-        System.out.println("dime");
-        double dime = scanner.nextDouble();
-
-        System.out.println("quarter");
-        double quarter = scanner.nextDouble();
-
-        double total = pennies + nickel + dime + quarter;
-        scanner.close();
-        int exactNumberExpected = 1;
-
-        if (total == exactNumberExpected){
-            System.out.println("You win");
-        } else if (total > exactNumberExpected){
-            System.out.println("You went over");
-        } else {
-            System.out.println("You went under");
-        }
     }
 }
