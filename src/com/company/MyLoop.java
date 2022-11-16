@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class MyLoop {
@@ -42,26 +43,34 @@ public class MyLoop {
 
         // For loop
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number to search for letter D");
-        String letter = scanner.next();
-        scanner.close();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number to search for letter D");
+//        String letter = scanner.next();
+//        scanner.close();
+//
+//        boolean letterFound = false;
+//
+//        for (int i = 0; i < letter.length(); i++){
+//            char currentLetter = letter.charAt(i);
+//
+//            if (currentLetter == 'D' || currentLetter == 'd'){
+//                letterFound = true;
+//                break;
+//            }
+//        }
+//
+//        if (letterFound){
+//            System.out.println("Letter D found");
+//        } else {
+//            System.out.println("Letter D not found");
+//        }
 
-        boolean letterFound = false;
+        int gameBoardSpace = 20;
+        Random random = new Random();
+        int userDieNum = random.nextInt(1, 6);
 
-        for (int i = 0; i < letter.length(); i++){
-            char currentLetter = letter.charAt(i);
-
-            if (currentLetter == 'D' || currentLetter == 'd'){
-                letterFound = true;
-                break;
-            }
-        }
-
-        if (letterFound){
-            System.out.println("Letter D found");
-        } else {
-            System.out.println("Letter D not found");
-        }
+//        for (int i = 0; i < ){
+//
+//        }
     }
 }
