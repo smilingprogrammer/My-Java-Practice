@@ -52,7 +52,7 @@ public class MyLoop {
         for (int i = 0; i < letter.length(); i++){
             char currentLetter = letter.charAt(i);
 
-            if (currentLetter == "D" || currentLetter == "d"){
+            if (currentLetter == 'D' || currentLetter == 'd'){
                 letterFound = true;
                 break;
             }
