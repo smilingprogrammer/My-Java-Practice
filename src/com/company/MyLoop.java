@@ -69,6 +69,7 @@ public class MyLoop {
         Random random = new Random();
         int userDieNum = random.nextInt(1, 6);
 
+        System.out.println(userDieNum);
 //        for (int i = 0; i < ){
 //
 //        }
