@@ -65,11 +65,11 @@ public class MyLoop {
 //            System.out.println("Letter D not found");
 //        }
 
-        int gameBoardSpace = 20;
-        Random random = new Random();
-        int userDieNum = random.nextInt(1, 6);
-
-        System.out.println(userDieNum);
+//        int gameBoardSpace = 20;
+//        Random random = new Random();
+//        int userDieNum = random.nextInt(1, 6);
+//
+//        System.out.println(userDieNum);
 //        for (int i = 0; i < ){
 //
 //        }
