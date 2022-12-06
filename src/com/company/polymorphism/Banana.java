@@ -11,9 +11,9 @@ public class Banana extends Fruit{
         System.out.println("Peel the banana");
     }
 
-    public String calories(){
-        calories = "300cal";
-        return calories;
+    @Override
+    public void setCalories(String calories) {
+        System.out.println("Calories of banana is " + calories);
     }
 
 }

@@ -11,8 +11,8 @@ public class Apple extends Fruit{
         System.out.println("remove apple seeds");
     }
 
-    public String calories(){
-        calories = "500cal";
-        return calories;
+    @Override
+    public void setCalories(String calories) {
+        System.out.println("Calories of apple is " + calories);
     }
 }
