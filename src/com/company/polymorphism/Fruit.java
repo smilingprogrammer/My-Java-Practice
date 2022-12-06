@@ -2,7 +2,7 @@ package com.company.polymorphism;
 
 public class Fruit {
 
-    String calories;
+    protected String calories;
 
     public String getCalories() {
         return calories;
