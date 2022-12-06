@@ -15,6 +15,7 @@ public class StringClass {
             for (int i=0; i < password.length(); i++){
                 char capital = password.matches("A-Z");
                 if (password.matches())
+
             }
 
         }else {
